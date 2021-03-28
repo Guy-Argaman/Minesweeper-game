@@ -1,0 +1,38 @@
+.game-board {
+    text-align: center;
+    font-size: 50px;
+    height: 500px;
+    width: 500px;
+    border: groove;
+    margin: 50px auto;
+    /* display: block; */
+}
+
+.board-cell {
+    height: 100px;
+    width: 100px;
+    border: groove;
+}
+
+.board-cell:hover {
+    background-color: grey;
+}
+
+h1 {
+    background: #fff;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    font-family: 'Titan One', cursive;
+    font-size: 90px;
+    font-weight: 700;
+    flex-flow: row wrap;
+    /* align-content: center; */
+    justify-content: center
+}
+
+.selected {
+    background-color: red;
+}
